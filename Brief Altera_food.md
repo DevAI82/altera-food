@@ -120,15 +120,24 @@ Altera_FOOD implanta un ecosistema tecnológico unificado, sin cuotas abusivas p
   - Posicionamiento local en Google Maps y búsqueda orgánica para: *"pizzería imaginalia albacete"*, *"mejores pizzas albacete"*, *"pizzería horno de piedra albacete"*, *"pedir pizza a domicilio albacete"*.
   - Marcado estructurado Schema.org `Restaurant` y `Menu` para que motores de IA (ChatGPT Search, Perplexity, Gemini) recomienden Pizzería Ángela.
 
-### Pilar 6: Panel TPV Comandera de Cocina & CRM Gastronómico Propio
+### Pilar 6: Panel TPV Comandera de Cocina (KDS), Stock 1-Clic & CRM Gastronómico Propio
 - **Pantalla KDS (Kitchen Display System) para cocina:** Vista tipo Kanban en tablet de cocina con tarjetas de pedidos en curso, agrupados por hora de entrega o recogida:
-  - *Columna 1: Nuevos Pagados (Pendientes de horno)*.
-  - *Columna 2: En Elaboración / En Horno*.
-  - *Columna 3: Listos para Recoger*.
-  - *Columna 4: Entregados*.
-- **Base de datos propia y marketing de fidelización:** Altera_FOOD almacena en Supabase el historial de pedidos de cada cliente. Permite lanzar automatizaciones de reactivación autorizadas:
-  - *"Hola Carlos, hace 2 semanas que no disfrutas de una pizza en horno de piedra. Este jueves tienes un postre casero de regalo con tu pedido"*.
-  - Felicitación de cumpleaños automática con código promocional.
+  - *Columna 1: Recepción / Nuevos Pagados*.
+  - *Columna 2: Montaje / Pendiente de Hornear*.
+  - *Columna 3: En Elaboración / En Horno o Plancha*.
+  - *Columna 4: Listos para Recoger / Servir en Mesa*.
+- **Control Rápido de Stock ("Agotado en 1 Clic"):** Si en mitad del servicio se agota la *Masa Sin Gluten*, la *Mozzarella Di Bufala* o el *Tiramisú Casero*, el cocinero pulsa un botón en la tablet KDS y al instante el Bot de WhatsApp y la Recepcionista de Voz IA dejan de ofrecerlo y sugieren una alternativa.
+- **Base de datos propia y marketing de fidelización:** Altera_FOOD almacena en Supabase el historial de pedidos y visitas de cada cliente con **Semáforo de Reputación CRM** (VIP, recurrente o alerta de plantones previos).
+
+### Pilar 7: Gestión Integral de Sala, Reservas Anti No-Show & Cobro de Cuenta (Suite 360º vs Restoo)
+Altera_FOOD incorpora todas las funciones de alto valor de plataformas de reservas como **Restoo** y las conecta nativamente con cocina y facturación para cubrir los **dos recorridos completos de principio a fin**:
+1. **Recorrido Completo de Sala (De la Llamada/WhatsApp a Pagar la Cuenta):**
+   - **Reserva por Voz IA o WhatsApp + Fianza Anti No-Show en 15s (Stripe Hold):** Para grupos grandes (>6 pax) o horas punta de fin de semana, el bot envía por WhatsApp un enlace seguro de validación con Apple Pay / Google Pay / tarjeta que retiene una fianza (ej. 10€/comensal) solo en caso de plantón sin avisar.
+   - **Mapa Visual de Sala por Zonas y Doblaje Automático de Turnos:** Control interactivo de *Salón Interior* y *Terraza* con rotación inteligente en dos turnos (*Turno 1: 20:30h–22:00h* y *Turno 2: 22:15h–23:45h*) y **Alerta de Desperdicio de Cubiertos** (avisa si una reserva de 2 personas bloquea una mesa de 6 y sugiere reubicarla en 1 clic).
+   - **Briefing Pre-Servicio Automático (30 min antes):** Resumen diario en la tablet de cocina y sala con alergias (celíacos), tronas de bebé, cumpleaños y clientes VIP.
+   - **Lista de Espera Virtual & Derivación de Hora Punta:** Si las 21:30h están completas, el bot ofrece 20:30h o 22:30h o anota al cliente en la Lista de Espera para avisarle por WhatsApp en 1 clic en cuanto se libere una mesa.
+   - **Cobro de Cuenta en Mesa (Pay-at-Table QR / Bizum / Stripe):** El comensal escanea el QR de su mesa, revisa su cuenta, la divide entre amigos si lo desea y paga en 10 segundos con Apple Pay o Bizum, liberando la mesa automáticamente para el segundo turno.
+   - **Autopilot de Reseñas 5★ en Google Maps:** 60–90 minutos después de pagar la cuenta o recoger el pedido, el cliente recibe un WhatsApp automático. Si valora con 5★ va directo a publicar reseña en Google Maps; si puntúa ≤3★ se abre un canal privado con gerencia evitando reseñas negativas públicas.
 
 ---
 
@@ -160,22 +169,21 @@ Este es el **catalizador de cierre indiscutible** para la reunión con los propi
 - **Intensidad de la ayuda:** **80% a fondo perdido** de la inversión neta elegible (hasta un máximo de 12.000 €).
 
 ### La Ecuación Financiera Irresistible para el Cliente:
-1. **Inversión total del proyecto:** **3.000 €** (+ IVA deducible).
+1. **Inversión total del proyecto (Fase 1 Suite 360º):** **3.000 €** (+ IVA deducible).
 2. **Subvención neta JCCM (80% a fondo perdido):** **2.400 €**.
-3. **Coste real inicial final asumido por la pizzería:** **600 € netos**.
-4. **Mantenimiento Mensual Altera (Tarifa Plana Base):** **99 € / mes** (100% gasto deducible).
-   - *La cifra mágica:* Rompe la barrera psicológica de los 100€/mes.
-   - *Qué incluye:* Servidor VPS Cloud dedicado en Coolify 24/7 (backups, monitorización, alta disponibilidad), base de datos PostgreSQL en Supabase, pantalla KDS de cocina, orquestación del bot de WhatsApp para pedidos ilimitados y soporte técnico continuo con cambios de carta en Albacete.
-   - *Comparativa directa con Last.app (140-180€/mes):* El cliente ahorra más de **600 € al año en software** desde el primer mes, con el 100% de la propiedad tecnológica.
+3. **Coste real inicial final asumido por el restaurante:** **600 € netos**.
+4. **Mantenimiento Mensual Altera (Tarifa Plana Todo Integrado):** **150 € / mes (sin IVA)** (100% gasto deducible).
+   - *Todo incluido sin parches de terceros:* Servidor VPS Cloud dedicado en Coolify 24/7, base de datos PostgreSQL en Supabase, Libro de Reservas y Mapa de Sala con Fianza Anti No-Show, Pantalla KDS de cocina con Stock en 1 clic, Bot de WhatsApp para pedidos y reservas, Recepcionista de Voz IA 24/7, Cobro de Cuenta en Mesa con QR y Autopilot de Reseñas 5★ en Google.
+   - *Comparativa demoledora frente al mercado fragmentado:* Contratar por separado **Restoo Premium (149 €/mes)** + **Last.app TPV/KDS (140 €/mes)** + **Bot de Voz IA Bookline (99 €/mes)** cuesta **~388 € / mes**. Con Altera_FOOD a **150 € / mes (sin IVA)** el restaurante ahorra **+238 € cada mes (+2.850 € al año)** teniendo todo integrado en una única plataforma propia.
 5. **Costes Variables a Consumo Real (Facturados aparte directo por proveedor):**
-   - **WhatsApp Business API (Meta Platforms):** Facturado a la tarjeta del cliente en Meta Business Suite.
+   - **WhatsApp Business API (Meta Platforms):** Facturado a la tarjeta del cliente en Meta Business Suite (frente a los 0,0878 €/SMS que cobra Restoo).
      - *Atención al cliente (ventana 24h):* **0,00 € (GRATIS)**.
-     - *Plantillas de Utilidad (Avisos de Comanda):* ~**0,034 € por mensaje**.
-     - *Plantillas de Marketing (Reactivación de Clientes):* ~**0,055 € - 0,060 € por mensaje entregado en España (+34)**. (Ej. 400 clientes = 22€ de coste para llenar el restaurante un jueves).
-   - **Recepcionista de Voz IA Telefónica (ElevenLabs + Twilio/Zadarma):** Facturado por minuto hablado real (~**0,10 € / minuto**). Si un día no hay llamadas, coste 0€. El fin de semana en horas punta atiende 40 llamadas por ~4€ salvando 500€ en pedidos sin necesidad de contratar personal extra solo para descolgar el teléfono.
+     - *Plantillas de Utilidad (Avisos de Comanda / Mesa):* ~**0,034 € por mensaje**.
+     - *Plantillas de Marketing (Reactivación de Clientes):* ~**0,055 € - 0,060 € por mensaje entregado en España (+34)**.
+   - **Recepcionista de Voz IA Telefónica (ElevenLabs + Twilio/Zadarma):** Facturado por minuto hablado real (~**0,10 € / minuto**). Si un día no hay llamadas, coste 0€. El fin de semana en horas punta atiende 40 llamadas por ~4€ salvando más de 600€ en reservas y pedidos.
 6. **Retorno de Inversión (ROI) en menos de 30 días:**
-   - Una pizzería que facture 2.000 € al mes por Uber Eats paga ~600 € en comisiones solo en ese mes.
-   - Con que solo **30 pizzas al mes** (1 al día) se pidan por WhatsApp para recoger en lugar de por Uber, se ahorran ~120 € en comisiones, cubriendo íntegramente la cuota mensual de Altera desde el primer mes.
+   - Una pizzería que facture 2.000 € al mes por Uber Eats paga ~600 € en comisiones solo en ese mes, más las mesas perdidas por plantones (No-Shows).
+   - Con evitar un solo plantón de grupo el sábado noche (+120€) y pasar 25 pedidos de Uber al canal propio de WhatsApp (+150€), la cuota de 150€/mes queda pagada y multiplicada desde el primer mes.
 7. **Diferenciación con el Kit Digital que ya tienen:**
    - La web actual de Tappens se acogió al Kit Digital estatal (solución básica de página web de 2023-2024).
    - El Bono Crecimiento Pyme de Castilla-La Mancha (2026) financia **herramientas de Inteligencia Artificial, automatización operativa, chatbots y CRM**, por lo que es 100% complementario y compatible.
@@ -185,61 +193,63 @@ Este es el **catalizador de cierre indiscutible** para la reunión con los propi
 
 ---
 
-## 6. Fases de Ejecución del Proyecto Altera_FOOD
+## 6. Fases de Implantación de la Suite 360º (Fase 1 del Proyecto)
 
 ```
 ┌────────────────────────────────────────────────────────┐
-│ FASE 1: PRESENTACIÓN AL CLIENTE & TRÁMITE JCCM (Sem 1) │
-│ • Demostración en vivo del bot de WhatsApp para pizzas │
-│ • Presentación de la comparativa de ahorro frente a Uber│
+│ ETAPA 1: PRESENTACIÓN AL CLIENTE & TRÁMITE JCCM (Sem 1)│
+│ • Demo en vivo: Mapa de Sala, WhatsApp Bot, KDS y Voz  │
+│ • Comparativa frente a Uber Eats + Last.app + Restoo   │
 │ • Entrega de Formulario III cumplimentado + Presupuesto│
 │ • Registro telemático en Sede Electrónica de la JCCM   │
 └───────────────────────────┬────────────────────────────┘
                             │ (Efecto incentivador cubierto)
                             ▼
 ┌────────────────────────────────────────────────────────┐
-│ FASE 2: INFRAESTRUCTURA & BOT DE WHATSAPP (Semanas 2-4)│
-│ • Despliegue de VPS + Coolify + Supabase para Pizzería │
-│ • Digitalización de la carta completa en base de datos │
-│ • Entrenamiento del bot de WhatsApp para tomar pedidos │
-│ • Conexión de Stripe para cobro online de comandas     │
-│ • Configuración de Zernio para WhatsApp e Instagram    │
+│ ETAPA 2: SALA, RESERVAS & BOT DE WHATSAPP (Semanas 2-4)│
+│ • Despliegue de VPS + Coolify + Supabase dedicado      │
+│ • Mapa de Sala (Salón/Terraza), Doblaje Turnos y Fianza│
+│ • Entrenamiento del bot de WhatsApp (pedidos y mesas)  │
+│ • Pasarela Stripe (pre-pago pedidos + Pay-at-Table QR) │
 └───────────────────────────┬────────────────────────────┘
                             │
                             ▼
 ┌────────────────────────────────────────────────────────┐
-│ FASE 3: REDISEÑO WEB, VOZ IA & COMANDERA (Semanas 5-8) │
+│ ETAPA 3: KDS COCINA, VOZ IA & RESEÑAS 5★ (Semanas 5-8) │
 │ • Nueva landing web mobile-first ultrarrápida          │
-│ • Puesta en marcha de la Comandera KDS para cocina     │
-│ • Desvío de llamadas y Recepcionista de Voz ElevenLabs │
-│ • Campaña de lanzamiento por código QR en cajas de pizza│
+│ • Puesta en marcha de Comandera KDS + Stock en 1 Clic  │
+│ • Desvío inteligente a Recepcionista Voz IA ElevenLabs │
+│ • Activación del Autopilot de Reseñas 5★ en Google     │
 └───────────────────────────┬────────────────────────────┘
                             │
                             ▼
 ┌────────────────────────────────────────────────────────┐
-│ FASE 4: JUSTIFICACIÓN DE LA AYUDA & SOPORTE (Mes 3-6)  │
+│ ETAPA 4: JUSTIFICACIÓN DE LA AYUDA & SOPORTE (Mes 3-6) │
 │ • Justificación técnica y económica ante la JCCM       │
 │ • Cobro del 80% de la subvención por parte del cliente │
-│ • Mantenimiento preventivo, backups y optimización     │
+│ • Mantenimiento Todo Integrado (150 €/mes sin IVA)     │
 └────────────────────────────────────────────────────────┘
 ```
 
 ---
 
-## 7. Estrategia Comercial de Entrada & Puntos Clave para la Reunión
+## 7. Hoja de Ruta Modular: Módulos de Expansión para Fases 2 y 3
 
-1. **El impacto del "Coste 600 €" con la ayuda de CLM:**  
-   Abrir la reunión explicando que Castilla-La Mancha ha publicado la Orden 116/2026 que financia el 80% de la implantación de Inteligencia Artificial para pymes hosteleras, y que Altera se encarga de todo el papeleo (Formulario III).
-2. **El anzuelo de la "Prueba de WhatsApp en directo":**  
-   Llevar al móvil del cliente una demo interactiva donde el propietario pueda enviar un WhatsApp pidiendo *"Una pizza cuatro quesos con jamón dulce para recoger a las 21:30"* y recibir en segundos la confirmación con el link de pago simulado.
-3. **El dolor de Uber Eats vs. Canal Propio:**  
-   Preguntar directamente: *"¿Cuánto os retiene Uber al mes en comisiones?"*. Poner la cifra sobre papel y demostrarles que ese dinero se lo están regalando a una multinacional cuando sus clientes viven a menos de 500 metros en el barrio de Imaginalia.
-4. **La "Campaña del QR en la caja de pizza":**  
-   Proponer una estrategia de transición sencilla: colocar una pegatina en cada caja de pizza que salga por Uber o teléfono que diga: *"Pide tu próxima pizza directamente por nuestro WhatsApp oficial y ahórrate el 10% de por vida [Código QR directo a WhatsApp]"*. Esto migra a los clientes cautivos de Uber al canal propio sin coste publicitario.
-5. **Replicabilidad en otros negocios gastronómicos (Vibra Burger y otros):**  
-   Este mismo brief y estructura técnica sirve para captar locales como Vibra Burger u otros restaurantes de Albacete, atacando la sustitución de cuotas caras de Last.app o la ausencia de pedidos por WhatsApp y recepción con Voz IA.
+Una vez consolidada la **Fase 1** (desde que el cliente llama o escribe para reservar mesa o pedir comida hasta que paga la cuenta y deja reseña), la arquitectura de Altera_FOOD permite activar **5 módulos adicionales de gestión interna y redes sociales** en una segunda o tercera fase:
+
+1. **📅 Sistema de Cuadrantes de Personal (Fase 2 · RRHH):**  
+   Planificación visual de turnos de cocina, pizzeros/plancha y camareros de sala. Gestión de descansos semanales, vacaciones, cambios de turno entre empleados y alertas de cobertura según la previsión de reservas del fin de semana (conectable con el proyecto de gestión de turnos propio).
+2. **⏱️ Sistema de Fichajes Digitales por Empleada (Fase 2 · Control Horario Legal):**  
+   Aplicación integrada para que cada empleada fiche su entrada, pausas y salida desde su móvil o la tablet del local (con PIN o geolocalización), generando automáticamente los partes mensuales firmados para gestoría e Inspección de Trabajo.
+3. **🧾 Sistema de Facturación Integrado & Verifactu (Fase 2/3 · Fiscal):**  
+   Emisión de tickets de mesa, facturas simplificadas y facturas completas para comidas de empresa, arqueo y cierre de caja diario por turno, y cumplimiento con el reglamento antifraude Verifactu con exportación directa para contabilidad.
+4. **📦 Sistema de Inventario y Escandallos para el Restaurante (Fase 3 · Stock & Food Cost):**  
+   Descuento automático de materia prima en almacén por cada receta vendida (gramos de harina, mozzarella, bolas de carne smash, pan brioche, cajas de cartón), control de mermas, cálculo de rentabilidad exacta (*Food Cost*) por plato y alertas de pedido automático a proveedores.
+5. **📸 Integración con Instagram para Programar Contenido (Fase 3 · Social Media Automation):**  
+   Calendario visual y programador automático de Reels, Stories y publicaciones en Instagram conectado con Zernio, permitiendo dejar programado el contenido de toda la semana y convertir los comentarios o mensajes directos en reservas de mesa o pedidos de forma automática.
 
 ---
 
 **Conclusión:**  
-El brief de **Altera_FOOD** transforma una pizzería tradicional limitada por el teléfono fijo y dependiente del 30% de comisiones de Uber en un restaurante digitalizado de vanguardia con bot de pedidos 24/7, cobros automatizados por Stripe, recepcionista por voz IA y comandera propia, apalancado en el **Bono Crecimiento Pyme de Castilla-La Mancha (80% a fondo perdido: 3.000 € de proyecto por solo 600 € de coste neto real)**.
+El brief de **Altera_FOOD 360º** ofrece una solución integral sin rival en el mercado: unifica lo mejor de **Restoo** (mapa de sala, doblaje de turnos, fianza anti-plantones, lista de espera y briefing), lo mejor de un **TPV/KDS moderno** (comandera por fases, stock en 1 clic y cobro de cuenta en mesa con QR) y la **Inteligencia Artificial Conversacional** (Bot de WhatsApp + Recepcionista de Voz IA 24/7 + Autopilot de Reseñas 5★) por una tarifa plana de **150 € / mes (sin IVA) todo integrado**, financiada al **80% a fondo perdido (coste inicial neto de 600 €)** gracias al Bono Crecimiento Pyme de Castilla-La Mancha.
+
