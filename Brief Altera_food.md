@@ -169,26 +169,26 @@ Este es el **catalizador de cierre indiscutible** para la reunión con los propi
 - **Intensidad de la ayuda:** **80% a fondo perdido** de la inversión neta elegible (hasta un máximo de 12.000 €).
 
 ### La Ecuación Financiera Irresistible para el Cliente:
-1. **Inversión total del proyecto (Fase 1 Suite 360º):** **3.000 €** (+ IVA deducible).
-2. **Subvención neta JCCM (80% a fondo perdido):** **2.400 €**.
-3. **Coste real inicial final asumido por el restaurante:** **600 € netos**.
-4. **Mantenimiento Mensual Altera (Tarifa Plana Todo Integrado):** **150 € / mes (sin IVA)** (100% gasto deducible).
-   - *Todo incluido sin parches de terceros:* Servidor VPS Cloud dedicado en Coolify 24/7, base de datos PostgreSQL en Supabase, Libro de Reservas y Mapa de Sala con Fianza Anti No-Show, Pantalla KDS de cocina con Stock en 1 clic, Bot de WhatsApp para pedidos y reservas, Recepcionista de Voz IA 24/7, Cobro de Cuenta en Mesa con QR y Autopilot de Reseñas 5★ en Google.
-   - *Comparativa demoledora frente al mercado fragmentado:* Contratar por separado **Restoo Premium (149 €/mes)** + **Last.app TPV/KDS (140 €/mes)** + **Bot de Voz IA Bookline (99 €/mes)** cuesta **~388 € / mes**. Con Altera_FOOD a **150 € / mes (sin IVA)** el restaurante ahorra **+238 € cada mes (+2.850 € al año)** teniendo todo integrado en una única plataforma propia.
+1. **Inversión total del proyecto (Fase 1 Suite 360º):** **4.000 €** (+ IVA deducible).
+2. **Subvención neta JCCM (80% a fondo perdido):** **3.200 €**.
+3. **Coste real inicial final asumido por el restaurante:** **800 € netos**.
+4. **Mantenimiento Mensual Altera (Tarifa Plana Todo Integrado):** **200 € / mes (sin IVA)** (100% gasto deducible).
+   - *Todo incluido sin parches de terceros:* Servidor VPS Cloud dedicado en Coolify 24/7, base de datos PostgreSQL en Supabase, Libro de Reservas y Mapa de Sala con Fianza Anti No-Show, Comandera Móvil Fullscreen (BYOD Camareros 0€ Hardware), Pantalla KDS de cocina con Stock en 1 clic, Bot de WhatsApp para pedidos y reservas, Recepcionista de Voz IA 24/7, Cobro de Cuenta en Mesa / TPV y Autopilot de Reseñas 5★ en Google.
+   - *Comparativa demoledora frente al mercado fragmentado:* Contratar por separado **Restoo Premium (149 €/mes)** + **Last.app TPV/KDS (140 €/mes)** + **Bot de Voz IA Bookline (99 €/mes)** cuesta **~388 € / mes**. Con Altera_FOOD a **200 € / mes (sin IVA)** el restaurante ahorra **+188 € cada mes (+2.250 € al año)** teniendo todo integrado en una única plataforma propia.
 5. **Costes Variables a Consumo Real (Facturados aparte directo por proveedor):**
-   - **WhatsApp Business API (Meta Platforms):** Facturado a la tarjeta del cliente en Meta Business Suite (frente a los 0,0878 €/SMS que cobra Restoo).
-     - *Atención al cliente (ventana 24h):* **0,00 € (GRATIS)**.
-     - *Plantillas de Utilidad (Avisos de Comanda / Mesa):* ~**0,034 € por mensaje**.
-     - *Plantillas de Marketing (Reactivación de Clientes):* ~**0,055 € - 0,060 € por mensaje entregado en España (+34)**.
+   - **WhatsApp Business API (Meta Platforms):** Facturado a la tarjeta del cliente directamente en Meta Business Suite con conexión oficial a Meta Cloud API (sin márgenes ni markups de intermediarios BSP como Twilio o 360dialog, frente a los 0,088 €/SMS que cobran las plataformas tradicionales de reservas).
+     - *Ventana de Servicio (Atención al cliente 24h):* **1.000 mensajes de servicio al mes GRATIS**; a partir del mensaje 1.001, tarificado al coste oficial de servicio de **0,0166 € por mensaje**.
+     - *Plantillas de Utilidad (Avisos de Comanda / Estado en Cocina / Confirmación de Mesa / Fianza):* **0,0166 € por mensaje entregado (+34 España)**.
+     - *Plantillas de Marketing (Reactivación en Días Flojos con Foto y Repetición en 1 Clic):* **0,0585 € por mensaje entregado (+34 España)**.
    - **Recepcionista de Voz IA Telefónica (ElevenLabs + Twilio/Zadarma):** Facturado por minuto hablado real (~**0,10 € / minuto**). Si un día no hay llamadas, coste 0€. El fin de semana en horas punta atiende 40 llamadas por ~4€ salvando más de 600€ en reservas y pedidos.
 6. **Retorno de Inversión (ROI) en menos de 30 días:**
    - Una pizzería que facture 2.000 € al mes por Uber Eats paga ~600 € en comisiones solo en ese mes, más las mesas perdidas por plantones (No-Shows).
-   - Con evitar un solo plantón de grupo el sábado noche (+120€) y pasar 25 pedidos de Uber al canal propio de WhatsApp (+150€), la cuota de 150€/mes queda pagada y multiplicada desde el primer mes.
+   - Con evitar un solo plantón de grupo el sábado noche (+120€) y pasar 25 pedidos de Uber al canal propio de WhatsApp (+150€), la cuota de 200€/mes queda pagada y multiplicada desde el primer mes.
 7. **Diferenciación con el Kit Digital que ya tienen:**
    - La web actual de Tappens se acogió al Kit Digital estatal (solución básica de página web de 2023-2024).
    - El Bono Crecimiento Pyme de Castilla-La Mancha (2026) financia **herramientas de Inteligencia Artificial, automatización operativa, chatbots y CRM**, por lo que es 100% complementario y compatible.
 8. **Cero burocracia para el hostelero:**
-   - Al ser un contrato menor de 3.000 € (inferior al límite de 15.000 €), la normativa no exige presentar tres ofertas de proveedores distintos.
+   - Al ser un contrato menor de 4.000 € (muy inferior al límite de 15.000 €), la normativa no exige presentar tres ofertas de proveedores distintos.
    - **Altera entrega la Memoria Técnica Oficial (Formulario III)** redactada al milímetro con cronograma, objetivos tecnológicos e impacto en la productividad del negocio, lista para presentar con firma digital.
 
 ---
@@ -251,5 +251,5 @@ Una vez consolidada la **Fase 1** (desde que el cliente llama o escribe para res
 ---
 
 **Conclusión:**  
-El brief de **Altera_FOOD 360º** ofrece una solución integral sin rival en el mercado: unifica lo mejor de **Restoo** (mapa de sala, doblaje de turnos, fianza anti-plantones, lista de espera y briefing), lo mejor de un **TPV/KDS moderno** (comandera por fases, stock en 1 clic y cobro de cuenta en mesa con QR) y la **Inteligencia Artificial Conversacional** (Bot de WhatsApp + Recepcionista de Voz IA 24/7 + Autopilot de Reseñas 5★) por una tarifa plana de **150 € / mes (sin IVA) todo integrado**, financiada al **80% a fondo perdido (coste inicial neto de 600 €)** gracias al Bono Crecimiento Pyme de Castilla-La Mancha.
+El brief de **Altera_FOOD 360º** ofrece una solución integral sin rival en el mercado: unifica lo mejor de la gestión de sala (mapa de mesas, doblaje de turnos, fianza anti-plantones, lista de espera y briefing), lo mejor de un **TPV/KDS moderno** (comandera móvil fullscreen 0€ hardware, stock en 1 clic y cobro de cuenta en mesa) y la **Inteligencia Artificial Conversacional** (Bot de WhatsApp + Recepcionista de Voz IA 24/7 + Autopilot de Reseñas 5★) por una tarifa plana de **200 € / mes (sin IVA) todo integrado**, financiada al **80% a fondo perdido (coste inicial neto de 800 € sobre 4.000 €)** gracias al Bono Crecimiento Pyme de Castilla-La Mancha.
 
